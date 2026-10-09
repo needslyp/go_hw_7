@@ -1,0 +1,19 @@
+# Локальные настройки инструментов и IDE
+../.idea/
+.codex/
+.aws/
+
+# Объединённый файл для сдачи (создаётся через make submit)
+.submission/
+
+# Результаты сборки и проверки Go
+*.test
+coverage.out
+coverage.html
+/async_logger/hw7_microservice
+
+# Временные файлы редакторов и ОС
+*.swp
+*.swo
+*~
+.DS_Store
